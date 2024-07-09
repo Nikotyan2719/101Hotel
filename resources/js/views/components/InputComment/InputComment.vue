@@ -119,7 +119,6 @@ export default {
     padding: 8px 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-left: auto;
 }
 
 
