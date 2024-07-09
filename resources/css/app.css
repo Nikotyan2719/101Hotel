@@ -1,0 +1,32 @@
+@import "vue2-datepicker/index.css";
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 22px;
+}
+
+body, #app {
+    min-height: 100vh;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    *, body {
+        font-size: 20px;
+    }
+}
