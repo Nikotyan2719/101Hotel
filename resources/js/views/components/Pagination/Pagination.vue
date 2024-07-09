@@ -2,10 +2,7 @@
     <div class="pagination">
         <button
             :disabled="currentPage === 1"
-            @click="prevPage"
-        >
-            <
-        </button>
+            @click="prevPage"><</button>
         <div
             v-for="page in pages"
             :class="{'active': currentPage === page}"
@@ -15,10 +12,7 @@
         </div>
         <button
             :disabled="currentPage === totalPages"
-            @click="nextPage"
-        >
-            >
-        </button>
+            @click="nextPage">></button>
     </div>
 </template>
 <script>

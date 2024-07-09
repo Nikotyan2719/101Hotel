@@ -48,6 +48,11 @@ export default {
                     console.error('Ошибка при редактировании комментария:', error);
                 })
         },
+
+        sortComments({ commit }, sortData) {
+            commit('sortComments', sortData);
+        }
+
     },
     mutations: {
         updateAllComments(state, allComments) {
